@@ -4,6 +4,7 @@
     "module": "es2022",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
+    "types": ["node"],
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
@@ -15,3 +16,11 @@
     }
   }
 }
+
+// {
+//   "compilerOptions": {
+//     // ...existing code...
+//     "types": ["node"]
+//     // ...existing code...
+//   }
+// }
